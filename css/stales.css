@@ -24,15 +24,14 @@ ul {
 }
 /* ----------------logo ---------------------*/
 .logo-title {
-  font-family: "Raleway" sans-serif;
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--logo-color);
 }
-.Studio {
+.studio {
   color: #212121;
 }
 /*-------------- heder---------------- */
@@ -70,9 +69,8 @@ ul {
   color: var(--link-color);
 }
 /* -----------------hero------------------ */
+.hero{background-color: #2f303a;}
 .hero-title {
-  font-family: inherit sans-serif;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -80,14 +78,17 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--hero-color);
-  background: #2f303a;
+
 }
 .button {
   font-family: inherit;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.88;
   color: var(--button-color);
+  
+background-color: #F5F4FA;
+border: none;
 }
 
 .button:hover,
@@ -102,8 +103,6 @@ ul {
 }
 /*  -------------about --------------*/
 .about-title {
-  font-family: inherit sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -112,7 +111,7 @@ ul {
   color: var(--title-color);
 }
 .about-text {
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -120,8 +119,6 @@ ul {
 }
 /* --------------pictures---------------- */
 .pictures-tile {
-  font-family: inherit sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -130,8 +127,6 @@ ul {
 }
 /* ---------------team------------------ */
 .team-title {
-  font-family: inherit sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -146,15 +141,18 @@ ul {
   color: var(--name-color);
 }
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
 /*  ---------------footer----------------*/
+.footer{
+  background-color: #2F303A;
+}
+.footer-studio{color: #ffffff;}
 .adress {
-  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -162,15 +160,13 @@ ul {
 }
 /* -----------------portfolio-------------- */
 .portfolio-title {
-  font-family: inherit;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--portfolio-title);
 }
 .portfolio-text {
-  font-weight: 400;
+  
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
