@@ -148,6 +148,7 @@ ul {
   color: var(--text-color);
 }
 /*  ---------------footer----------------*/
+
 .footer {
   background-color: #2f303a;
 }
@@ -155,8 +156,7 @@ ul {
   color: #ffffff;
 }
 .footer-address {
-  display: block;
-  font-style: italic;
+  font-style: inherit;
 }
 .address {
   font-size: 14px;
@@ -173,9 +173,10 @@ ul {
   line-height: 1.88;
   color: var(--button-color);
   background-color: #f5f4fa;
- 
 }
-.button{ border: none;}
+.button {
+  border: none;
+}
 .button:hover,
 .button:focus {
   color: #ffffff;
